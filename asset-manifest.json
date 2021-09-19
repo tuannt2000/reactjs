@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jobfair/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/jobfair/static/js/main.044a18d1.chunk.js",
+    "main.js.map": "/jobfair/static/js/main.044a18d1.chunk.js.map",
+    "runtime-main.js": "/jobfair/static/js/runtime-main.e77376d3.js",
+    "runtime-main.js.map": "/jobfair/static/js/runtime-main.e77376d3.js.map",
+    "static/js/2.91c1c2c8.chunk.js": "/jobfair/static/js/2.91c1c2c8.chunk.js",
+    "static/js/2.91c1c2c8.chunk.js.map": "/jobfair/static/js/2.91c1c2c8.chunk.js.map",
+    "static/js/3.a6cde2a8.chunk.js": "/jobfair/static/js/3.a6cde2a8.chunk.js",
+    "static/js/3.a6cde2a8.chunk.js.map": "/jobfair/static/js/3.a6cde2a8.chunk.js.map",
+    "index.html": "/jobfair/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/jobfair/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.91c1c2c8.chunk.js.LICENSE.txt": "/jobfair/static/js/2.91c1c2c8.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e77376d3.js",
+    "static/js/2.91c1c2c8.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.044a18d1.chunk.js"
+  ]
+}
