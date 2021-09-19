@@ -1,0 +1,46 @@
+*{margin: 0;padding: 0;}
+
+#root{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 20px;
+    .checkbox{
+        max-width: 800px;
+        margin: auto;
+
+        h1{
+            text-align: center;
+        }
+
+        .allThanhPho{
+            display: grid;
+            grid-template-columns: auto auto auto auto auto auto;
+            background-color: #2196F3;
+            padding: 10px;
+
+            .thanhpho{
+                background-color: rgba(255, 255, 255, 0.8);
+                border: 1px solid rgba(0, 0, 0, 0.8);
+                padding: 10px;
+                font-size: 13px;
+                text-align: center;
+
+                .alltinh{
+                    display: grid;
+                    grid-template-columns: auto auto auto auto auto auto;
+                    padding: 10px;
+
+                    .tinh{
+                        padding: 10px;
+                        font-size: 13px;
+                        text-align: left;
+                    }
+                }
+            }
+        }
+    }
+
+    // canvas{
+    //     width: 60%;
+    // }
+}
