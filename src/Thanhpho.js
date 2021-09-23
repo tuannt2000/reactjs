@@ -25,7 +25,7 @@ class Thanhpho extends Component {
 
     componentDidMount() {
         fetch("https://opendata.resas-portal.go.jp/api/v1/cities?prefCode="+this.props.index,{
-            headers: { "X-API-KEY": "4ibUag7YlO6BYEnMKLTUNRNbwoI2P7i5PgBmJ1G2" },
+            headers: { "X-API-KEY": "OjcxJFvwkyY1rhDLOIlmIw1HzZltAoj0XBgsbd2C" },
         })
         .then(res => res.json())
         .then(

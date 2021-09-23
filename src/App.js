@@ -93,20 +93,41 @@ class App extends Component {
                     datasets:  this.DanSo()
                     }}
                     options={{
+                        responsive: true,
                         plugins: {
-                          title: {
-                            display: true,
-                            text: "人口チャート",
-                            font: {
-                                size: 30
-                            }        
-                          },
-                          legend: {
-                            display: true,
-                            position: "right"
-                         }
-                        }
-                      }}
+                            title: {
+                                display: true,
+                                text: "人口チャート",
+                                font: {
+                                    size: 30
+                                }        
+                            },
+                            legend: {
+                                display: true,
+                                position: "top"
+                            },
+                        },
+                        scales: {
+                            yAxes: {
+                                title: {
+                                    display: true,
+                                    text: '総人口',
+                                    font: {
+                                        size: 15
+                                    }
+                                },
+                            },
+                            xAxes: {
+                                title: {
+                                    display: true,
+                                    text: '年',
+                                    font: {
+                                        size: 15
+                                    }
+                                },
+                            },
+                          }
+                    }}                     
                 />
             </div>
         );
