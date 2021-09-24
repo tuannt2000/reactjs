@@ -12,8 +12,9 @@
             text-align: center;
         }
 
-        .allThanhPho{
-            display: grid;
+        .allThanhPho.modal.fade.in{
+            display: grid !important;
+
             grid-template-columns: auto auto auto auto auto auto;
             background-color: #2196F3;
             padding: 10px;
@@ -44,3 +45,5 @@
     //     width: 60%;
     // }
 }
+
+@import'responsive';

@@ -15,25 +15,25 @@
 #root .checkbox h1 {
   text-align: center;
 }
-#root .checkbox .allThanhPho {
-  display: grid;
+#root .checkbox .allThanhPho.modal.fade.in {
+  display: grid !important;
   grid-template-columns: auto auto auto auto auto auto;
   background-color: #2196F3;
   padding: 10px;
 }
-#root .checkbox .allThanhPho .thanhpho {
+#root .checkbox .allThanhPho.modal.fade.in .thanhpho {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 13px;
   text-align: center;
 }
-#root .checkbox .allThanhPho .thanhpho .alltinh {
+#root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto;
   padding: 10px;
 }
-#root .checkbox .allThanhPho .thanhpho .alltinh .tinh {
+#root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh .tinh {
   padding: 10px;
   font-size: 13px;
   text-align: left;
