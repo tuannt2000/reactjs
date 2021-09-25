@@ -7,6 +7,7 @@
     .checkbox{
         max-width: 800px;
         margin: auto;
+        text-align: center;
 
         h1{
             text-align: center;
@@ -16,10 +17,15 @@
             display: grid;
             max-width: 1000px;
             margin: 0 auto;
-            grid-template-columns: auto auto auto auto auto auto;
+            grid-template-columns: auto auto auto;
             background-color: #2196F3;
             padding: 10px;
             align-items: center;
+
+            button.close{
+                font-size: 25px;
+                padding-right: 10px !important;
+            }
 
             .thanhpho{
                 background-color: rgba(255, 255, 255, 0.8);
@@ -31,7 +37,7 @@
 
                 .alltinh{
                     display: grid;
-                    grid-template-columns: auto auto auto auto auto auto;
+                    grid-template-columns: auto auto auto;
                     padding: 10px;
 
                     .tinh{
