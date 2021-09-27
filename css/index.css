@@ -1,4 +1,5 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -16,59 +17,107 @@
 #root .checkbox h1 {
   text-align: center;
 }
-#root .checkbox .allThanhPho.modal.fade.in {
-  display: grid;
+#root .checkbox button {
+  padding: 10px 20px;
+  font-size: 15px;
+  text-align: center;
+  background-color: #2196F3;
+  color: #fff;
+  border-color: #2196F3;
+  border-radius: 4px;
+}
+#root .checkbox .allThanhPho {
+  display: none;
   max-width: 1000px;
   margin: 0 auto;
   grid-template-columns: auto auto auto;
   background-color: #2196F3;
   padding: 10px;
   align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
-#root .checkbox .allThanhPho.modal.fade.in button.close {
-  font-size: 25px;
-  padding-right: 10px !important;
+#root .checkbox .allThanhPho button.close {
+  background: 0, 0;
+  font-size: 23px;
+  padding: 10px 0;
+  border: none;
+  color: black;
+  opacity: 0.2;
+  float: right;
+  padding-right: 20px;
 }
-#root .checkbox .allThanhPho.modal.fade.in .thanhpho {
+#root .checkbox .allThanhPho button.close:hover {
+  opacity: 1;
+}
+#root .checkbox .allThanhPho .thanhpho {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
   padding: 10px;
   font-size: 13px;
   text-align: center;
   width: 100%;
+  max-width: 1000px;
+  margin: auto;
 }
-#root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh {
+#root .checkbox .allThanhPho .thanhpho input {
+  margin: 4px 0 0;
+  margin-left: -20px;
+}
+#root .checkbox .allThanhPho .thanhpho label {
+  padding-left: 20px;
+  cursor: pointer;
+}
+#root .checkbox .allThanhPho .thanhpho .alltinh {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
-#root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh .tinh {
+#root .checkbox .allThanhPho .thanhpho .alltinh .tinh {
   padding: 10px;
   font-size: 13px;
   text-align: left;
 }
 
+.black {
+  display: none;
+  opacity: 0.5;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 990;
+  background-color: #000;
+}
+
 @media (min-width: 576px) {
-  #root .checkbox .allThanhPho.modal.fade.in {
+  #root .checkbox .allThanhPho {
     grid-template-columns: auto auto auto auto;
   }
-  #root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh {
+  #root .checkbox .allThanhPho .thanhpho .alltinh {
     grid-template-columns: auto auto auto auto;
   }
 }
 @media (min-width: 768px) {
-  #root .checkbox .allThanhPho.modal.fade.in {
+  #root .checkbox .allThanhPho {
     grid-template-columns: auto auto auto auto auto;
   }
-  #root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh {
+  #root .checkbox .allThanhPho .thanhpho .alltinh {
     grid-template-columns: auto auto auto auto auto;
   }
 }
 @media (min-width: 992px) {
-  #root .checkbox .allThanhPho.modal.fade.in {
+  #root .checkbox .allThanhPho {
     grid-template-columns: auto auto auto auto auto auto;
   }
-  #root .checkbox .allThanhPho.modal.fade.in .thanhpho .alltinh {
+  #root .checkbox .allThanhPho .thanhpho .alltinh {
     grid-template-columns: auto auto auto auto auto auto;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -1,7 +1,7 @@
 @media (min-width: 576px){
     #root{
         .checkbox{  
-            .allThanhPho.modal.fade.in{
+            .allThanhPho{
                 grid-template-columns: auto auto auto auto;
 
                 .thanhpho{    
@@ -17,7 +17,7 @@
 @media (min-width: 768px){
     #root{
         .checkbox{  
-            .allThanhPho.modal.fade.in{
+            .allThanhPho{
                 grid-template-columns: auto auto auto auto auto;
 
                 .thanhpho{    
@@ -33,7 +33,7 @@
 @media (min-width: 992px){
     #root{
         .checkbox{  
-            .allThanhPho.modal.fade.in{
+            .allThanhPho{
                 grid-template-columns: auto auto auto auto auto auto;
 
                 .thanhpho{    
